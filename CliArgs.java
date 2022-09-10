@@ -164,7 +164,8 @@ public class CliArgs {
             }
         }
 
+        int a = 0;
+
         return targetArray;
     }
-
 }
