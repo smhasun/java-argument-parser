@@ -159,12 +159,11 @@ public class CliArgs {
         String[] targetArray = new String[args.length - takenIndexes.size()];
         int targetIndex = 0;
         for(int i = 0; i < args.length ; i++) {
-            if( !takenIndexes.contains(i) ) {
                 targetArray[targetIndex++] = args[i];
             }
         }
 
-        int a = 0;
+        int bbb = 0;
 
         return targetArray;
     }
